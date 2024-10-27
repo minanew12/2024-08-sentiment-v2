@@ -14,9 +14,6 @@ ___
 ### Q: If you are integrating tokens, are you allowing only whitelisted tokens to work with the codebase or any complying with the standard? Are they assumed to have certain properties, e.g. be non-reentrant? Are there any types of [weird tokens](https://github.com/d-xo/weird-erc20) you want to integrate?
 Tokens are whitelisted, only tokens with valid oracles can be used to create Base Pools.
 
-Protocol governance will ensure that oracles are only set for standard ERC-20 tokens (plus USDC/USDT)
-___
-
 ### Q: Are there any limitations on values set by admins (or other roles) in the codebase, including restrictions on array lengths?
 Expected launch values for protocol params:
 Min LTV = 10% = 100000000000000000
